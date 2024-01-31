@@ -36,12 +36,12 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: `https://rpc-l1.jibchain.net/`,
+        url: `http://localhost:8545/`,
       },
     },
-    jbc: {
-      url: `https://rpc-l1.jibchain.net/`,
-      chainId: 8899,
+    devnet: {
+      url: `http://localhost:8545/`,
+      chainId: 1234,
       gasPrice: parseInt(`${process.env.GAS_PRICE}`) * 10**9,
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },

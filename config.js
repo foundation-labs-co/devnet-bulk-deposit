@@ -1,8 +1,8 @@
 const config = {
-  depositContractAddress: '0xe9364471539cD35D1911f844914c7DaBf7aeE92D',
-  impersonateAddress: '0x5266Dfa5ae013674f8FdC832b7c601B838D94eE6',
+  depositContractAddress: '0x4242424242424242424242424242424242424242',
+  impersonateAddress: '0x123463a4B065722E99115D6c222f267d9cABb524',
   depositETHAmount: 32,
-  nativeSymbol: 'JBC',
+  nativeSymbol: 'ETH',
 }
 
 module.exports = { config }

@@ -58,3 +58,4 @@ Thumbs.db
 
 # Deposit data file
 deposit_data*.json
+validator_keys/

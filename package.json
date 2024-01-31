@@ -1,5 +1,5 @@
 {
-  "name": "jbc-bulk-deposit",
+  "name": "devnet-bulk-deposit",
   "version": "1.0.0",
   "description": "",
   "devDependencies": {
@@ -31,6 +31,6 @@
   "scripts": {
     "compile": "npx hardhat compile",
     "verify": "npx hardhat run scripts/depositVerify.js --network hardhat",
-    "deposit": "npx hardhat run scripts/deposit.js --network jbc"
+    "deposit": "npx hardhat run scripts/deposit.js --network devnet"
   }
 }
